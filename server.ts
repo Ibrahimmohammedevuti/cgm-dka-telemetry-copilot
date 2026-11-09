@@ -26,7 +26,10 @@ async function startServer() {
       classificationTitle
     } = req.body ?? {};
 
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey =
+      typeof process !== 'undefined' && process.env
+        ? process.env.GEMINI_API_KEY
+        : undefined;
     const hasValidKey = Boolean(
       apiKey && apiKey.trim() !== '' && apiKey !== 'MY_GEMINI_API_KEY'
     );
