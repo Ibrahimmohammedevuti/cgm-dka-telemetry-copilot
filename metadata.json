@@ -1,0 +1,6 @@
+{
+  "name": "GlucoKetone AI: Continuous CGM/CKM Telemetry & DKA Triage Copilot",
+  "description": "Interactive clinical telemetry simulator and 3-stage prompt-engineered decision support copilot for continuous glucose/ketone monitoring and Euglycemic DKA triage by Dr. Ibrahim Mohammed (MD | MDCN/R/107127).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
